@@ -1,0 +1,1036 @@
+{
+	"config": {
+		"background": "fit_content_assets/patajohydlpdlieixhzt.jpg",
+		"colors": {
+			"background": "#e31d1a",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');\n\n/* Main Colors */\n:root {\n  --main-color: #f37666;\n  --accent-color: #024d55;\n  --text-color: #FFFF;\n  --background: #FF5733;\n\n  \n}\n\n/* Typography */\nh1, h2, h3, h4, body {\n  font-family: 'Oswald', sans-serif;\n}\n\n/* Elements */\nb {\n  color: var(--main-color);\n}\n\nsb {\n  color: var(--accent-color);\n  font-weight: bold;\n}\n\n/* Buttons */\n.btn.btn-muted, .btn.btn-solid {\n  background: var(--main-color);\n  color: var(--text-color);\n  border-radius: 3px;\n  transition: all ease-in-out 300ms;\n  box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.4);\n  text-transform: uppercase;\n}\n\n.btn.btn-muted.__active, .btn.btn-muted:hover,\n.btn.btn-solid.__active, .btn.btn-solid:hover {\n  background: var(--accent-color);  \n  color: var(--text-color);\n  transition-delay: 0.25s;\n  transition: all ease-in-out 300ms;\n  box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.4);\n  transform: translate(0px, -3px);\n  text-transform: uppercase;\n}\n\n.btn.btn-circular {\n  border-radius: 50% !important;\n}\n\n/* Headings */\nh4, .text-uppercase, .slide-drag-to-match .short-text .multi-content-text {\n  text-transform: uppercase;\n}\n/* BACKGROUND COLOR */\n\n#slides-view {background: #098894 !important;\n}  \n\n/* Header & Slides */\n#lesson-header-nav {\n  background: var(--main-color);\n  color: #024d55;\n}\n\n#lesson-header {\n  background: #FFFFFF;\n}\n\n#lesson-header-nav-menu-btn {\n  border-left: 1.5px solid var(--text-color);\n  border-color: #162B29;\n}\n\n.icon-menu:before {\n  content: \"☰\";\n  font-weight: bold;\n}\n\n#lesson-header-title-content {\n  border-bottom: 0px solid var(--main-color);\n  color: black; \n}\n\n#indicator { \n  background-color: #f37666; \n  color: #098894;\n}\n\n#slides {\n  border-bottom: 1.5px solid var(--main-color);\n}\n\n#text-input-view #text-input-dismiss-btn {\n  color: var(--main-color);\n} \n\n#text-input-view #text-input-container-top {\n  color: var(--main-color);\n}\n\nli::marker {\n  color: var(--accent-color); \n}\n\nhr {\n  color: var(--accent-color);\n}\n\n.pswp__item {\n  background: black;\n}\n\n.selectable.active .btn { \n  background-color: var(--accent-color);\n}\n\n/* Templates */\n.slide-image-slider .style-dark .caption-content {\n  background: var(--main-color);\n  color: var(--text-color);\n  border-radius: 3px;\n}\n\n.slide-image-slider .style-light .caption-content {  \n  background: var(--accent-color);\n  color: var(--text-color);\n  border-radius: 3px;\n}\n\n.slide-image-slider .btn-down,\n.slide-image-slider .btn-up {\n  background: var(--main-color);\n  color: var(--text-color);\n  border-radius: 50%;\n}\n\n.slide-image-slider .btn-down:hover,\n.slide-image-slider .btn-down:active,\n.slide-image-slider .btn-up:hover,",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": true,
+		"preventLogoutOnExit": true,
+		"indicator": true,
+		"logo": "fit_content_assets/uqburtwpl9a2e3yxx3gp.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en",
+		"incompleteOnFail": false
+	},
+	"isAudio": true,
+	"isOnline": true,
+	"index": 0,
+	"duration": 420,
+	"slides": [
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.TitleSlideDataDocument",
+			"id": "fa79cee2-c638-4494-839a-0e3a0719e8c3",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "fa79cee2-c638-4494-839a-0e3a0719e8c3",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "title",
+			"subtype": "default",
+			"name": 0,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": null
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": true,
+					"audio_file": "fit_content_assets/Welcome_PS_course_wgumq0.mp3"
+				},
+				"title": "Speak Up!",
+				"titleType": "html",
+				"subtitle": "A lesson on speaking with confidence",
+				"subtitleType": "html",
+				"buttonText": "Ok, let's go!",
+				"exitButton": false
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.SpeechBubbleSlideDataDocument",
+			"id": "78d6396b-4b48-4611-bcc5-bde23989757b",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "78d6396b-4b48-4611-bcc5-bde23989757b",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "speech-bubble",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 2,
+			"templateName": "Quote",
+			"templateDescription": "Display a quote",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "# “I fear not the man who has practiced 10,000 kicks once, but I fear the man who had practiced one kick 10,000 times.”\n",
+				"titleType": "html",
+				"author": "Bruce Lee",
+				"avatar": "fit_content_assets/mrhaxbmjuwn6gm1nqoqg.jpg",
+				"direction": "Left",
+				"bubbleStyle": "Dark",
+				"avatarStyle": "Circle"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.SpeechBubbleSlideDataDocument",
+			"id": "f7b2a59f-3042-43f6-b90d-134a839936b2",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "f7b2a59f-3042-43f6-b90d-134a839936b2",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "speech-bubble",
+			"subtype": "default",
+			"name": 2,
+			"displayIndex": 3,
+			"templateName": "Quote",
+			"templateDescription": "Display a quote",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "# “If you want to get better at anything, you have to practice. There’s no other way to do it. For me practicing is fun. I enjoy improving myself, and I enjoy developing new skills.”\n",
+				"titleType": "html",
+				"author": "Michael Jordan",
+				"avatar": "fit_content_assets/kr85natht5mlurjtsq6p.jpg",
+				"direction": "Left",
+				"bubbleStyle": "Dark",
+				"avatarStyle": "Circle"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.CategoriesSlideDataDocument",
+			"id": "72b09fda-12aa-4f30-8727-2a46e8e7f9d9",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "It's all about...",
+							"content": "What do the two quotations have in common?",
+							"id": "11e233e7-e382-4831-89b5-1f0bbe81935d",
+							"type": "text",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "Practicing",
+								"correct": true,
+								"id": "142df3c9-9cbc-4fa2-bfdf-f61ba6e6e2f8",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Speaking with Confidence",
+								"correct": false,
+								"id": "fed1c65e-bd0a-471a-bca5-3f1f687d229b",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "72b09fda-12aa-4f30-8727-2a46e8e7f9d9"
+					}
+				],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "72b09fda-12aa-4f30-8727-2a46e8e7f9d9",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "categorise",
+			"subtype": "classification",
+			"name": 3,
+			"displayIndex": 4,
+			"templateName": "Categorize",
+			"templateDescription": "Drag to the correct category",
+			"permanent": false,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "What do the two quotations have in common?",
+				"titleType": "text",
+				"answer": {
+					"takeaway": "There's no way other way to be better at something but by practicing. Everyone starts at being novice and become better eventually if you do it on a regular basis.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Practicing"
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					}
+				},
+				"prompt": "Drag to the correct answer",
+				"buttonText": "It's all about...",
+				"categories": [
+					{
+						"text": "Practicing",
+						"correct": true
+					},
+					{
+						"text": "Speaking with Confidence",
+						"correct": false
+					}
+				],
+				"doneText": "Ok, I'm done"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ImageGallerySlideDataDocument",
+			"id": "41cf7d87-5fb9-43a4-abbe-a7c52424fc05",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "41cf7d87-5fb9-43a4-abbe-a7c52424fc05",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 4,
+			"displayIndex": 5,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": true,
+					"audio_file": "fit_content_assets/synthesized_audio_anwngp.mp3"
+				},
+				"title": null,
+				"titleType": null,
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/wqigjxalnnt4rzwxj42g.jpg",
+						"caption": "Virtually no one fails to learn to speak their native language and develop a basic vocabulary and manner of speaking unless they are impaired in hearing.\n"
+					},
+					{
+						"image": "fit_content_assets/pq4z0cgnqn3gaqyzdcte.jpg",
+						"caption": "However, although we learn to speak a language and interact, we may not learn to converse effectively."
+					},
+					{
+						"image": "fit_content_assets/iogtyr48gh9l5hsnvgpt.jpg",
+						"caption": "Fluency in speaking is the aim of many language learners. Signs of fluency include a reasonably fast speed of speaking and only a small number of pauses and \"ums\" and \"errs.\" These signs indicate that the speaker does not have to spend a lot of time searching for the language items needed to express the message.\n"
+					}
+				],
+				"doneText": "Ok, I'm done"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ImageSlideDataDocument",
+			"id": "888ccf1b-efe3-8a07-2ffb-d8cd57d216d5",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "888ccf1b-efe3-8a07-2ffb-d8cd57d216d5",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "image",
+			"subtype": "image",
+			"name": 5,
+			"displayIndex": 6,
+			"templateName": "Single image",
+			"templateDescription": "Display an image and optional caption",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": true,
+					"audio_file": "fit_content_assets/Tips_for_improving_PS_zrsaou.mp3"
+				},
+				"url": "fit_content_assets/zFBVxClB2I8_tjcqnv.jpg",
+				"size": null,
+				"prompt": "Select the image for more details",
+				"lightbox": null,
+				"compose": true,
+				"autofocus": true,
+				"tapAnywhere": false,
+				"caption": {
+					"title": "Importance of confidence in public speaking",
+					"content": "Why are these skills important and how this impacts you as a trainer?\n",
+					"background": null,
+					"textColor": null
+				},
+				"doneText": "Continue"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.CategoriesSlideDataDocument",
+			"id": "110e3358-0884-0181-b2bb-e2d152db83be",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "When it comes to public speaking confidence is essential to deliver a strong and effective message",
+							"content": "Is the following statement true or false?",
+							"id": "a9fcc88f-eea7-492f-9b22-29a8f83f186a",
+							"type": "text",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"id": "586f8931-852d-4c86-8f41-66f940a67c07",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"id": "9efa055a-2aa7-4f1b-b764-55b1f527d0cc",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "110e3358-0884-0181-b2bb-e2d152db83be"
+					}
+				],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "110e3358-0884-0181-b2bb-e2d152db83be",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "categorise",
+			"subtype": "true-or-false",
+			"name": 6,
+			"displayIndex": 7,
+			"templateName": "Categorize",
+			"templateDescription": "Drag to the correct category",
+			"permanent": false,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "Is the following statement true or false?",
+				"titleType": "text",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "This statement is correct."
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					}
+				},
+				"prompt": "Drag to the correct category",
+				"buttonText": "When it comes to public speaking confidence is essential to deliver a strong and effective message",
+				"categories": [
+					{
+						"text": "True",
+						"correct": true
+					},
+					{
+						"text": "False",
+						"correct": false
+					}
+				],
+				"doneText": "Continue"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ComparisonSlideDataDocument",
+			"id": "69121afe-5d8d-4938-8039-f1931658e676",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "69121afe-5d8d-4938-8039-f1931658e676",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 7,
+			"displayIndex": 8,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": true,
+					"audio_file": "fit_content_assets/synthesized_audio_2_yn2loy.mp3"
+				},
+				"title": "Fluency is founded on two competencies",
+				"titleType": "html",
+				"before": {
+					"contentType": "image",
+					"content": "fit_content_assets/reioszqozafu2xgkazyh.jpg",
+					"label": "# Unity/Clarity of message"
+				},
+				"after": {
+					"contentType": "image",
+					"content": "fit_content_assets/tse6rzvvmc4utdz9l1rz.jpg",
+					"label": "# Spontaneity"
+				},
+				"startPosition": "Middle - Show the content equally divided",
+				"prompt": "Drag to reveal the content",
+				"doneText": "Ok, I'm done"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.WordsSlideDataDocument",
+			"id": "8aeb5c98-7d03-470c-8898-c37c4b18f955",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "8aeb5c98-7d03-470c-8898-c37c4b18f955",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "find-a-word",
+			"subtype": "find-a-word",
+			"name": 8,
+			"displayIndex": 9,
+			"templateName": "Find-a-word",
+			"templateDescription": "",
+			"permanent": false,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": null
+				},
+				"title": "Fluency is founded in Clarity, Unity and _____",
+				"titleType": "text",
+				"answer": {
+					"takeaway": "Unity of Thought/ Clarity of Message – An individual’s ability to convey thought and meaning in a clear and logical manner.\n\nSpontaneity - An individual’s ability to display confidence in using the English language \nAn individual readily and effortlessly articulates his thoughts without fillers and unnecessary pauses/ dead air",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Unity/Clarity of message and Spontaneity"
+				},
+				"game": {
+					"timer": {
+						"limit": 30000,
+						"isDisabled": true,
+						"out-of-time-prompt": null
+					}
+				},
+				"prompt": "Find the words in the grid",
+				"words": [
+					"Clarity",
+					"Spontaneity",
+					"Unity"
+				],
+				"doneText": "Ok, I'm done"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ImageSlideDataDocument",
+			"id": "be621671-c0ae-dea6-bfba-57f0162df27c",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "be621671-c0ae-dea6-bfba-57f0162df27c",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "image",
+			"subtype": "image",
+			"name": 9,
+			"displayIndex": 10,
+			"templateName": "Single image",
+			"templateDescription": "Display an image and optional caption",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": "fit_content_assets/synthesized_audio_mx2jae.mp3"
+				},
+				"url": "fit_content_assets/AJ_Mou1FUS8_qlfiue.jpg",
+				"size": null,
+				"prompt": "Select the image for more details",
+				"lightbox": null,
+				"compose": true,
+				"autofocus": true,
+				"tapAnywhere": false,
+				"caption": {
+					"title": "It's not magic, the secret to speaking with confidence is... ",
+					"content": "Allow my friend Dan to share a few proven tips with you.\n",
+					"background": null,
+					"textColor": null
+				},
+				"doneText": "Continue"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ImageCollectionSlideDataDocument",
+			"id": "da9fb885-e673-4ae3-8884-805556a59d86",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "da9fb885-e673-4ae3-8884-805556a59d86",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "image-collection",
+			"subtype": "image-collection",
+			"name": 10,
+			"displayIndex": 11,
+			"templateName": "Image collection",
+			"templateDescription": "Select an image to see more detail",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				},
+				"title": "Secrets To Learning Masterful Conversation",
+				"titleType": "html",
+				"prompt": "Select each image for more details",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"content": "# Conversation is collaborative",
+						"image": "fit_content_assets/w1d8k6iy5wbyiowwvjdg.jpg",
+						"narration": "fit_content_assets/PS_audios_-_Made_with_Clipchamp_-_Clip_1_si32qz.mp3"
+					},
+					{
+						"content": "# Spend time with skilled conversers\n",
+						"image": "fit_content_assets/anttrlkssd9yvdjokmpe.jpg",
+						"narration": "fit_content_assets/PS_audios_-_Made_with_Clipchamp_-_Clip_2_bxnqkg.mp3"
+					},
+					{
+						"content": "# Conversation is process knowledge\n",
+						"image": "fit_content_assets/vd3vl4aoem2ehnhwowhz.jpg",
+						"narration": "fit_content_assets/PS_audios_-_Made_with_Clipchamp_-_Clip_3_nhj1az.mp3"
+					},
+					{
+						"content": "# Confidence follows learning new skills",
+						"image": "fit_content_assets/ljxovggzkbv12ahbe8sj.jpg",
+						"narration": "fit_content_assets/PS_audios_-_Made_with_Clipchamp_-_Clip_4_cpmbyb.mp3"
+					}
+				],
+				"doneText": "Let me see the video"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.YoutubeVideoEmbedSlideDataDocument",
+			"id": "cc0611fc-401d-4104-8905-9be076793e57",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "cc0611fc-401d-4104-8905-9be076793e57",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "youtube-video-embed",
+			"subtype": "youtube-video-embed",
+			"name": 11,
+			"displayIndex": 12,
+			"templateName": "YouTube",
+			"templateDescription": "Display a video hosted on YouTube",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "P.R.E.P Method",
+				"titleType": "html",
+				"videoId": "FcJtMZ-gcm0",
+				"autoplay": true,
+				"startTime": 0,
+				"endTime": null,
+				"showSkipButton": true,
+				"autoProgress": true,
+				"duration": 0
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.GameElevatorSlideDataDocument",
+			"id": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "The PREP Method",
+							"content": "P",
+							"id": "0d49eccc-d555-4688-8633-e84a526f31d3",
+							"type": "image",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "Point",
+								"correct": true,
+								"id": "d5b039c0-d746-4c51-9fed-9c6aa5e9f823",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Position",
+								"correct": true,
+								"id": "6f5c3c80-f482-453a-86be-5e45753c58ee",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Prepare",
+								"correct": false,
+								"id": "e98239a9-1950-450b-94a9-da06875c9158",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Play",
+								"correct": false,
+								"id": "12c5d033-10bf-4331-9dde-ef0afa140899",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea"
+					},
+					{
+						"question": {
+							"category": "The PREP Method",
+							"content": "R",
+							"id": "59142834-a854-4f0d-b631-6d6ad6f813c2",
+							"type": "image",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "Reason",
+								"correct": true,
+								"id": "4e9eacdb-e306-46bf-8d72-4fc5042992ea",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Respect",
+								"correct": false,
+								"id": "804aa8a0-9ed8-46e9-ac51-7cadd47b5aca",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Ready",
+								"correct": false,
+								"id": "1d47d455-3a84-47f4-bc5c-d654136341ad",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Remorse",
+								"correct": false,
+								"id": "5441bcb4-1ed9-483d-bdb2-b1f8bf4bea8b",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea"
+					},
+					{
+						"question": {
+							"category": "The PREP Method",
+							"content": "E",
+							"id": "358d8e7e-bdf7-4f7a-9ad3-ff36a234e960",
+							"type": "image",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "Evidence",
+								"correct": true,
+								"id": "3a52af48-a15d-44d4-a04c-6173ce26ef08",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Example",
+								"correct": true,
+								"id": "f827006b-fe8c-430c-8ae1-3e43fc0d4902",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Entire",
+								"correct": false,
+								"id": "c756380f-caad-4b57-82b4-863cf53c065e",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "End",
+								"correct": false,
+								"id": "0f066ee6-e444-4a05-ae16-65ead0a8f6e3",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea"
+					},
+					{
+						"question": {
+							"category": "The PREP Method",
+							"content": "P",
+							"id": "97377bb1-863d-44c8-8082-96c1c5482718",
+							"type": "image",
+							"text": null
+						},
+						"answers": [
+							{
+								"content": "Point",
+								"correct": true,
+								"id": "641873df-83ab-43b0-b2cc-930e987cf926",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Period",
+								"correct": false,
+								"id": "9b4911a7-39de-4b0c-be0c-759b67d11ed3",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Process",
+								"correct": false,
+								"id": "5c2d33ac-2218-4cc2-a785-16d7a14fa370",
+								"type": "text",
+								"text": null
+							},
+							{
+								"content": "Peak",
+								"correct": false,
+								"id": "cd2c1e7c-df74-4897-a532-97e8fd9ea37f",
+								"type": "text",
+								"text": null
+							}
+						],
+						"slideId": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea"
+					}
+				],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "a02e0b10-64e3-4d8c-be25-51094d4cf0ea",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "game-elevator",
+			"subtype": "elevator",
+			"name": 12,
+			"displayIndex": 13,
+			"templateName": "Elevator",
+			"templateDescription": "How would you describe..?",
+			"permanent": false,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": null
+				},
+				"title": "The PREP Method",
+				"titleType": null,
+				"game": {
+					"timer": {
+						"limit": 20000,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": {
+						"max": 10000,
+						"min": 1000
+					}
+				},
+				"prompt": "Select to match P.R.E.P.",
+				"description": "Which of these facts matches the letter? \n",
+				"combine": false,
+				"combined": null,
+				"images": [
+					{
+						"title": "P",
+						"image": "fit_content_assets/iiq4y9r5ef7r9ve1lqug.jpg",
+						"correct": [
+							"Point",
+							"Position"
+						],
+						"incorrect": [
+							"Prepare",
+							"Play"
+						],
+						"description": "** Point/Position **  - This is the main point of what you are talking about. You need to decide what your point is and state it clearly upfront.\n"
+					},
+					{
+						"title": "R",
+						"image": "fit_content_assets/pqlq2rsnlr5huedqgqdz.jpg",
+						"correct": [
+							"Reason"
+						],
+						"incorrect": [
+							"Respect",
+							"Ready",
+							"Remorse"
+						],
+						"description": "**Reason** supports your main topic and usually starts with the word \"because\"\n"
+					},
+					{
+						"title": "E",
+						"image": "fit_content_assets/warn6bjemeby6pndrrsr.jpg",
+						"correct": [
+							"Evidence",
+							"Example"
+						],
+						"incorrect": [
+							"Entire",
+							"End"
+						],
+						"description": "** Evidence/Example ** Must ALWAYS SUPPORT REASON(S). Provide Examples to Answer WHY\n"
+					},
+					{
+						"title": "P",
+						"image": "fit_content_assets/ibjwqae3dgl3gbbpgze1.jpg",
+						"correct": [
+							"Point"
+						],
+						"incorrect": [
+							"Period",
+							"Process",
+							"Peak"
+						],
+						"description": "** Point/Position ** - reword your main topic to close the speech"
+					}
+				],
+				"doneText": "See another video"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.YoutubeVideoEmbedSlideDataDocument",
+			"id": "6e3bf783-f966-4bd9-bd1c-55a40606811d",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "6e3bf783-f966-4bd9-bd1c-55a40606811d",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "youtube-video-embed",
+			"subtype": "youtube-video-embed",
+			"name": 13,
+			"displayIndex": 14,
+			"templateName": "YouTube",
+			"templateDescription": "Display a video hosted on YouTube",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"title": "Develop a conversational speaking style",
+				"titleType": "html",
+				"videoId": "tkJqyP0ZKAw",
+				"autoplay": true,
+				"startTime": 0,
+				"endTime": 238,
+				"showSkipButton": true,
+				"autoProgress": true,
+				"duration": 0
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.FreeTextSurveySlideDataDocument",
+			"id": "40d3042d-27fe-463c-be2a-77c01d57ebdf",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "40d3042d-27fe-463c-be2a-77c01d57ebdf",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "free-text-survey",
+			"subtype": "free-text",
+			"name": 14,
+			"displayIndex": 15,
+			"templateName": "Free text",
+			"templateDescription": "Free text input for user feedback",
+			"permanent": false,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": null
+				},
+				"prompt": "Type your response",
+				"question": {
+					"min": 100,
+					"content": "What are your key take aways from the video you just seen?",
+					"contentType": "html",
+					"id": "c92a7cf9-3208-e065-10f0-e1a32e661fca"
+				},
+				"doneText": "Ok, I'm done"
+			}
+		},
+		{
+			"_t": "Hippo.Infrastructure.Lessons.Slides.SlideDataDocuments.ExitSlideDataDocument",
+			"id": "837fdb84-aba7-4a82-9fb1-1fcd8edb90fa",
+			"metadata": {
+				"questions": [],
+				"question": null,
+				"answers": null,
+				"friedrichType": null,
+				"friedrichId": null,
+				"score": null,
+				"slideId": "837fdb84-aba7-4a82-9fb1-1fcd8edb90fa",
+				"slideIndexWithinQuestionPool": null,
+				"questionPoolNumberQuestions": null
+			},
+			"type": "exit",
+			"subtype": "default",
+			"name": 15,
+			"displayIndex": 16,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"data": {
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": null
+				},
+				"title": "That's it!",
+				"titleType": "html",
+				"content": "Nice work. You've completed this lesson.",
+				"buttonText": "Exit Lesson"
+			}
+		}
+	],
+	"title": "Speak up!",
+	"scorm": true,
+	"id": "63f92387ab69d7b36ae6fc25"
+}
